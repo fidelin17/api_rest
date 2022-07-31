@@ -1,0 +1,16 @@
+api rest python y mongo db
+
+1.primero lo que se hace es crear el ambiente virtual para eso instalamos el modulo virtualenv
+pip install virtualenv
+
+2. creamos el ambiente virtual con el comando
+virtualenv venv
+
+3.iniciar nuestro ambiente virtual
+.\venv\Scripts\activate.bat   windows
+source ./venv/(Scripts, bin)/activate linux
+
+4. una vez creado nuestro ambiente virual instalaremos los paquetenes necerarios para nuestra api
+pip install flask pymongo
+pip install flas-pymongo
+
